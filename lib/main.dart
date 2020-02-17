@@ -16,6 +16,10 @@ double average (int a,int b,int c) {
   return a+b+c/3;
 }
 
+String concatenate(String s1, String s2) {
+  return s1+s2;
+}
+
   int spend(int amount) {
     if (amount >= 0) {
       int temp = balance - amount;
