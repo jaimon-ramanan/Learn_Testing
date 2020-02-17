@@ -34,6 +34,12 @@ void main() {
     int c = calculator.multiply(-2, -3);
     expect(c, 6);
   });
+  test("concatenate", (){
+    Calculator calculator = Calculator();
+    String d = calculator.concatenate("Jaimon","Ramanan");
+    expect(d,"Jaimon Ramanan");
+     
+  });
   test('Spend', () {
     Calculator calculator = Calculator();
     int c = calculator.spend(4);
