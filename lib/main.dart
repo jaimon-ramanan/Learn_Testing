@@ -8,6 +8,10 @@ class Calculator {
     return a - b;
   }
 
+int multiply(int a,int b) {
+  return a*b;
+}
+
   int spend(int amount) {
     if (amount >= 0) {
       int temp = balance - amount;
