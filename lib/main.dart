@@ -17,7 +17,7 @@ double average (int a,int b,int c) {
 }
 
 String concatenate(String s1, String s2) {
-  return s1+s2;
+  return s1+" "+s2;
 }
 
   int spend(int amount) {
