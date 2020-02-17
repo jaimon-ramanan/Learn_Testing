@@ -18,6 +18,22 @@ void main() {
     int c = calculator.minus(-3, 5);
     expect(c, -8);
   });
+
+  test("On zero", (){
+    Calculator calculator = Calculator();
+    int c = calculator.multiply(3, 0);
+    expect(c, 0);
+  });
+  test("On negative",(){
+    Calculator calculator = Calculator();
+    int c = calculator.multiply(-5, 5);
+    expect(c, -25);
+  } );
+  test("Multiple negative values", (){
+    Calculator calculator = Calculator();
+    int c = calculator.multiply(-2, -3);
+    expect(c, 6);
+  });
   test('Spend', () {
     Calculator calculator = Calculator();
     int c = calculator.spend(4);
