@@ -12,6 +12,10 @@ int multiply(int a,int b) {
   return a*b;
 }
 
+int average (int a,int b,int c) {
+  return a+b+c/3;
+}
+
   int spend(int amount) {
     if (amount >= 0) {
       int temp = balance - amount;
