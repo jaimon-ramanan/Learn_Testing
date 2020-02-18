@@ -19,7 +19,9 @@ double average (int a,int b,int c) {
 String concatenate(String s1, String s2) {
   return s1+" "+s2;
 }
-
+String reverse(String s) {
+  return s.reversed;
+}
   int spend(int amount) {
     if (amount >= 0) {
       int temp = balance - amount;
